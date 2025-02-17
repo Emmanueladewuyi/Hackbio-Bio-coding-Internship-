@@ -1,3 +1,4 @@
+# function for translating DNA to Protein
 def dna_transcription(dna_sequences):
     """Convert a DNA sequence into an mRNA sequence by replacing Thymine (T) with Uracil (U)."""
     return dna_sequences.replace('T', 'U') 
@@ -36,3 +37,5 @@ for i in range(0, len(rna_sequence), 3):
     protein += amino_acid  # Append amino acid to protein sequence
     
 print(protein)
+
+https://github.com/Emmanueladewuyi/Hackbio-Bio-coding-Internship-.git
